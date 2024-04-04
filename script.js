@@ -8,7 +8,7 @@ let currFolder;
 
 async function getsongs(folder) {
  currFolder = folder;
-let a = await fetch(`http://127.0.0.1:5500/${folder}/`)
+let a = await fetch(`/${folder}/`)
   let response = await a.text();
   let div = document.createElement("div");
   div.innerHTML = response;
@@ -190,7 +190,7 @@ document.addEventListener("mouseup", () => {
 });
 
 async function displayalbums() {
- let a = await fetch(`http://127.0.0.1:5500/songs/`)
+ let a = await fetch(`/songs/`)
   let response = await a.text();
   let div = document.createElement("div");
   div.innerHTML = response;
@@ -309,7 +309,7 @@ volumeRange.addEventListener("input", () => {
 //     currFolder = folder;
 //     let encodedFolder = encodeURI(folder);
 //     try {
-//       let response = await fetch(`http://127.0.0.1:5500/${encodedFolder}/`);
+//       let response = await fetch(`/${encodedFolder}/`);
 //         if (!response.ok) {
 //             throw new Error(`HTTP error! status: ${response.status}`);
 //         }
@@ -502,7 +502,7 @@ volumeRange.addEventListener("input", () => {
 
 // async function displayAlbums() {
 //     try {
-//         let response = await fetch(`http://127.0.0.1:5500/songs/`);
+//         let response = await fetch(`/songs/`);
 //         if (!response.ok) {
 //             throw new Error(`HTTP error! status: ${response.status}`);
 //         }
