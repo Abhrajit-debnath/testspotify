@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone - Web Player: Music for everyone</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/utility.css" />
+    <link
+      rel="shortcut icon"
+      href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"
+      type="image/x-icon"
+      sizes="30x30"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Section Menu Starts -->
+    <div class="container flex">
+      <div class="sidebar-bg-box">
+        <div class="left-sidebar-box">
+        <div class="home-section">
+          <div class="logo flex justify-between">
+            <img class="invert" src="images/logo.svg" alt="Logo" />
+            <img class="invert close" src="images/close.svg" alt="">
+          </div>
+          <div class="home-menu">
+            <ul>
+              <li class="home">
+                <img class="invert" src="images/home.svg" alt="Home" />Home
+              </li>
+              <li>
+                <img
+                  class="invert"
+                  src="images/search.svg"
+                  alt="Search"
+                />Search
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="library">
+          <div class="heading">
+            <img src="images/library.svg" alt="Library" />
+            <h2>Your Library</h2> <img src="images/addicon.svg" alt="add-icon" class="add-img" />
+          </div>
+           <div class="box">
+
+          <div class="song-list">
+            <ul>
+
+            </ul>
+
+          </div>
+
+           </div>
+
+        <div class="footer">
+          <div class="links">
+          <div>
+            <a href="https://www.spotify.com/in-en/legal/">
+                <span>Legal</span>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                Safety &amp; Privacy Center
+            </a>
+        </div>
+        <div>
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/" >
+                <span>Privacy Policy</span>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.spotify.com/in-en/legal/cookies-policy/" >
+                <span>Cookies</span>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" >
+                <span>About Ads</span>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.spotify.com/in-en/accessibility/" >
+                <span>Accessibility</span>
+            </a>
+        </div>
+        <div>
+          <a href="https://www.spotify.com/in-en/accessibility/" >
+              <span>Cookies</span>
+          </a>
+      </div>
+    </div>
+    <div>
+  </div>
+  </div>
+  <div class="lang-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#fff" fill="none">
+      <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" />
+      <path d="M8 12C8 18 12 22 12 22C12 22 16 18 16 12C16 6 12 2 12 2C12 2 8 6 8 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+      <path d="M21 15H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M21 9H3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </svg><p>English</p>
+  </div>
+  </div>
+      </div>
+    </div>
+
+<div class="right-sidebar-box">
+  <div class="header flex justify-between align-center">
+    <div class="nav">
+      <div class="flex justify-between align-center">
+        <img class="hamburger" src="images/hamburger.svg" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffff" fill="none">
+          <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffff" fill="none">
+          <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+
+    </div>
+    <div class="buttons">
+      <button class="sign-up-btn"">Sign up</button>
+      <button class="log-in-btn">Log in</button>
+    </div>
+  </div>
+  <div class="spotify-playlists">
+    <h1>Spotify Playlists</h1>
+    <div class="card-container flex wrap">
+  </div>
+  <div class="main-footer flex justify-between">
+    <div class="footer-content flex justify-between">
+    <div class="footer-box-1">
+      <ul>
+        <h2>Company</h2>
+        <li>About</li>
+        <li>Jobs</li>
+        <li>For Record</li>
+      </ul>
+    </div>
+    <div class="footer-box-2">
+      <ul>
+        <h2>Communities</h2>
+        <li>For Artists</li>
+        <li>Developers</li>
+        <li>Advertising</li>
+        <li>Investors</li>
+      </ul>
+    </div>
+    <div class="footer-box-3">
+      <ul>
+        <h2>Useful links</h2>
+        <li>Support</li>
+        <li>Free Mobile App</li>
+      </ul>
+    </div>
+  </div>
+  <div class="social-links flex justify-between">
+    <div class="instagram flex align-center justify-center">
+      <a href="https://www.instagram.com/abhra.jit9" target="_blank">
+        <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="white" stroke-width="1.5" stroke-linejoin="round">
+          <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" />
+          <path d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z" />
+          <path d="M17.5078 6.5L17.4988 6.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </div>
+
+
+
+
+<div class="twitter flex align-center justify-center">
+  <a href="https://x.com/AbhrajitD18535?t=LvnMJieGhN67iuqD0UvMsg&s=09" target="_blank">
+  <svg  class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+    <path d="M3 21L10.5484 13.4516M21 3L13.4516 10.5484M13.4516 10.5484L8 3H3L10.5484 13.4516M13.4516 10.5484L21 21H16L10.5484 13.4516" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
+</a>
+</div>
+<div class="facebook flex align-center justify-center">
+  <a href="https://www.facebook.com/abhrajit.caesardebnath?mibextid=ZbWKwL" target="_blank">
+<svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.18182 10.3333C5.20406 10.3333 5 10.5252 5 11.4444V13.1111C5 14.0304 5.20406 14.2222 6.18182 14.2222H8.54545V20.8889C8.54545 21.8081 8.74951 22 9.72727 22H12.0909C13.0687 22 13.2727 21.8081 13.2727 20.8889V14.2222H15.9267C16.6683 14.2222 16.8594 14.0867 17.0631 13.4164L17.5696 11.7497C17.9185 10.6014 17.7035 10.3333 16.4332 10.3333H13.2727V7.55556C13.2727 6.94191 13.8018 6.44444 14.4545 6.44444H17.8182C18.7959 6.44444 19 6.25259 19 5.33333V3.11111C19 2.19185 18.7959 2 17.8182 2H14.4545C11.191 2 8.54545 4.48731 8.54545 7.55556V10.3333H6.18182Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+</svg>
+</a>
+</div>
+  </div>
+</div>
+<div class="footer-bot">
+  <p>© 2024 Spotify Cloned By Abhrajit Debnath</p>
+</div>
+<div class="playbar" >
+  <div class="seekbar">
+    <div class="circle"></div>
+  </div>
+  <div class="song-details-bar flex justify-between align-center">
+  <div class="song-info">
+
+  </div>
+  <div class="song-nav flex justify-center">
+  <img id="previous" src="images/previous.svg" alt="">
+  <img id="play" src="images/play-song.svg" alt="">
+  <img id="next" src="images/next.svg" alt="">
+
+</div>
+<div class="time-vol flex align-center">
+<div class="song-time"></div>
+<div class="volume align-center">
+  <img class="invert" src="images/volume.svg" alt="">
+<div class="range">
+  <input type="range" value="" name="range">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
